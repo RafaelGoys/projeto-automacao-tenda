@@ -33,4 +33,11 @@ Cypress.Commands.add('clicarSeVisivel', (selector) => {
       }
     });
   });
-  
+
+  Cypress.Commands.add('clickIfExists', (selector) => {
+    cy.get('body').then(($body) => {
+      if ($body.find(selector).length > 0) {
+        cy.get(selector, { timeout: 20000 }).click();
+      }
+    });
+  });
