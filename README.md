@@ -1,5 +1,6 @@
 "# projeto-automacao-tenda" 
-1 - instalar dependencias do projeto, executar os seguintes comandos pelo terminal:
+1 - instalar dependencias do projeto, utilizar o gerenciador de pacote [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) para a instalação das dependências.
+Executar os seguintes comandos pelo terminal:
 npm install cypress --save-dev
 npm install @badeball/cypress-cucumber-preprocessor --save-dev
 npm install @cucumber/cucumber --save-dev
